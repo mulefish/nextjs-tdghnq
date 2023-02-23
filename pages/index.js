@@ -206,25 +206,25 @@ const HomepageLayout = () => {
         async
       />
       <Script
-        src={`https://public-package-bucket-temp.s3.us-west-2.amazonaws.com/transformation-configs/latest/transformation-configs-remoteEntry.js?time=${Date.now()}`}
+        src={`https://localdev.lululemon.com:9000/transformation-configs/latest/transformation-configs-remoteEntry.js?time=${Date.now()}`}
         strategy="beforeInteractive"
         defer
         async
       />
       <Script
-        src={`https://public-package-bucket-temp.s3.us-west-2.amazonaws.com/validation-configs/latest/validation-configs-remoteEntry.js?time=${Date.now()}`}
+        src={`https://localdev.lululemon.com:9000/validation-configs/latest/validation-configs-remoteEntry.js?time=${Date.now()}`}
         strategy="beforeInteractive"
         defer
         async
       />
       <Script
-        src={`https://public-package-bucket-temp.s3.us-west-2.amazonaws.com/lam-model/latest/lam-model-remoteEntry.js?time=${Date.now()}`}
+        src={`https://localdev.lululemon.com:9000/lam-model/latest/lam-model-remoteEntry.js?time=${Date.now()}`}
         strategy="beforeInteractive"
         defer
         async
       />
       <Script
-        src={`https://public-package-bucket-temp.s3.us-west-2.amazonaws.com/%40lululemon/mwa-analytics/latest/browser/mwa-analytics.js?time=${Date.now()}`}
+        src={`https://localdev.lululemon.com:4000/dist/library/browser/mwa-analytics.js?time=${Date.now()}`}
         async
         defer
         strategy="beforeInteractive"
